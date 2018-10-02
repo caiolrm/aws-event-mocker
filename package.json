@@ -1,0 +1,14 @@
+{
+  "name": "aws-event-mocker",
+  "version": "0.0.1",
+  "description": "Mock events from AWS event sources",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.297.0",
+    "moment": "^2.22.2",
+    "uuid": "^3.3.2"
+  }
+}
