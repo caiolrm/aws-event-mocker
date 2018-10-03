@@ -92,7 +92,7 @@ class DynamoDBEventGenerator {
   }
 
   _getAccountId(options = this.options) {
-    return options.accountId || utils.randomInt(10 ** 12 - 1, 10 ** 11);
+    return options.accountId || utils.randomInt(Math.pow(10, 12) - 1, Math.pow(10, 11));
   }
 
   _getDataRecords(data) {
