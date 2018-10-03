@@ -1,6 +1,6 @@
 {
   "name": "aws-event-mocker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mock events from AWS event sources",
   "main": "index.js",
   "keywords": [],
